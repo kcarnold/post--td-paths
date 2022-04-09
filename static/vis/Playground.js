@@ -158,7 +158,7 @@
 	var svg = container
 		.append("svg")
 		.style("width", "100%")
-		.style("min-height", height)
+		.style("min-height", height + "px")
 		.style("user-select", "none");
 	// .attr("width", width + margin.left + margin.right)
 	// .attr("height", height + margin.top + margin.bottom);
